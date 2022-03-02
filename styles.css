@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+.container{
+    width: 1096px;
+    margin: auto;
+}
+
+header{
+    background-color: #ff7948;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header nav a, header p{
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+#message{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+#error{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+form{
+    margin-top: 1em;
+}
+
+.form-label{
+    color: #ff7948;
+    font-weight: 800;
+}
+
+.form-input{
+    height: 30px;
+    width: 100%;
+}
+
+.area{
+    height: 100px;
+}
+
+.button{
+    width: 100%;
+    padding: 11px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1em;
+}
+th, tr, td{
+    border: 1px solid #ff7948;
+}
+
+table a{
+    text-decoration: none;
+}
+
+.delete{
+    color:red
+}
+
+.qtt{
+    color: #ff7948;
+    font-size: 25px;
+}
+
+#description{
+    margin-top: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+img{
+    width: 300px;
+    margin: auto;
+}
